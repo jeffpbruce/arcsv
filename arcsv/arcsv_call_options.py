@@ -66,7 +66,7 @@ DEFAULT_OPTS = {
 
     # SV CALLING
     'max_back_edges': 2,        # affects max copy number
-    'max_paths': 20000,          # maximum number of paths to consider
+    'max_paths': 50000,          # maximum number of paths to consider
     'max_mes_extra': 0,         # how much will we raise min_edge_support
                                 # ...to reduce the number of paths?
     'robustness_parameter': 1e-4,
